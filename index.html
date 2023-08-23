@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+  <body>
+   <script>
+     // Aufgabe1
+     console.clear();
+     const liste = [0, 0, 0, 0, 0, 0];
+     liste[0] = "Rania Mahmoud";
+     liste[1] = 160;
+     liste[2] = 58.5;
+     liste[3] =  " Was ist deine Nationalität";
+     liste[4] = true;
+     liste[5] = false;
+      
+
+      console.log(liste);
+
+     // Aufgabe2
+     let liste2 = [0, 0, 0];
+     liste2[0] = ["Essen","Trinken","Naschen"];
+     liste2[1] = ["Smart tv", 399, "schwarz"];
+     liste2[2] = {
+        produkt: "Waschmaschine",
+        Marke:"Bosch",
+        preis:699.54,
+        Farbe:"weis"
+        }
+
+        console.log(liste2);
+
+      // Aufgabe3
+      // JSON-Objekt
+      // --------------------------------------------------------- //
+      const liste3 = {
+        Name: "rania",
+        Gros: 160,
+        Gewicht: 158.5,
+        frage: " Was ist deine Nationalität",
+        Agypten: true,
+        Deutsch:  false
+        
+        };
+         console.log(liste3);
+         console.log(liste3.Deutsch, liste3.Agypten, liste3.frage, liste3.Gewicht, liste3.Gros, liste3.Name);
+      // Aufgabe4
+      // JSON-Objekt
+      let liste4 = {
+        a:[
+        "Druck",
+        "Dichte",
+        "Heizegrad",
+        "Schwellenwert",
+        "Höhe",
+        "Wiederstand",
+        "Aplaufschutz",
+        "Fallschirm",
+        "Qualität"
+        ],
+        b:{
+        produkt: "Lenvo Ultra Book",
+        preis: 549.65,
+        Farbe: "silver-weis"
+        },
+        c:{
+        produkt: "Fahrrad",
+        Marke: "Mountain",
+        preis: 399,
+        Farbe: "Blue"
+        }
+
+        };
+        
+         console.log(liste4);
+         console.log(liste4.a, liste4.b, liste4.c);
+
+
+
+     
+   </script>
+</html>
